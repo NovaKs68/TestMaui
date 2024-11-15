@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:pages="clr-namespace:Mopups.Pages;assembly=Mopups"
+                 x:Class="TestMopup.TestDialog"
+                 Title="TestDialog"
+                 HeightRequest="300"
+                 BackgroundColor="DarkGreen">
+    <VerticalStackLayout>
+        <Label Text="Hello, I'm a mopup dialog!" />
+        <Button Text="Close me !" Clicked="Button_OnClicked"></Button>
+    </VerticalStackLayout>
+</pages:PopupPage>
